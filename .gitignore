@@ -1,0 +1,25 @@
+# ---- 编译产物（对各 lab 子目录普遍生效）----
+obj/
+bin/
+*.o
+*.d
+
+# ---- 调试 / 评分脚本的中间文件 ----
+.gdb.in
+.qemu.out
+
+# ---- 打包产物 ----
+proj*handin.tar.gz
+
+# ---- 代码索引工具生成的文件 ----
+cscope*
+tags
+
+# ---- 编辑器与系统杂项 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
